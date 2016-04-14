@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505EB6491CBF6BC50055E63F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EB6481CBF6BC50055E63F /* main.m */; };
+		505EB64C1CBF6BC50055E63F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EB64B1CBF6BC50055E63F /* AppDelegate.m */; };
+		505EB64F1CBF6BC50055E63F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EB64E1CBF6BC50055E63F /* ViewController.m */; };
+		505EB6521CBF6BC50055E63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505EB6501CBF6BC50055E63F /* Main.storyboard */; };
+		505EB6551CBF6BC50055E63F /* ZHPPhotoBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 505EB6531CBF6BC50055E63F /* ZHPPhotoBrowser.xcdatamodeld */; };
+		505EB6571CBF6BC50055E63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505EB6561CBF6BC50055E63F /* Assets.xcassets */; };
+		505EB65A1CBF6BC50055E63F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505EB6581CBF6BC50055E63F /* LaunchScreen.storyboard */; };
+		505EB6651CBF6BC50055E63F /* ZHPPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EB6641CBF6BC50055E63F /* ZHPPhotoBrowserTests.m */; };
+		505EB6701CBF6BC50055E63F /* ZHPPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EB66F1CBF6BC50055E63F /* ZHPPhotoBrowserUITests.m */; };
+		505EB6851CBF6BF60055E63F /* PBImageScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EB67F1CBF6BF60055E63F /* PBImageScrollerViewController.m */; };
+		505EB6861CBF6BF60055E63F /* PBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EB6811CBF6BF60055E63F /* PBViewController.m */; };
+		505EB6881CBF6D320055E63F /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 505EB6871CBF6D320055E63F /* 3.jpg */; };
+		505EB68B1CBF6D3A0055E63F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 505EB6891CBF6D3A0055E63F /* 1.jpg */; };
+		505EB68C1CBF6D3A0055E63F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 505EB68A1CBF6D3A0055E63F /* 2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		505EB6611CBF6BC50055E63F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505EB63C1CBF6BC50055E63F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505EB6431CBF6BC50055E63F;
+			remoteInfo = ZHPPhotoBrowser;
+		};
+		505EB66C1CBF6BC50055E63F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505EB63C1CBF6BC50055E63F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505EB6431CBF6BC50055E63F;
+			remoteInfo = ZHPPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		505EB6441CBF6BC50055E63F /* ZHPPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHPPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		505EB6481CBF6BC50055E63F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		505EB64A1CBF6BC50055E63F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		505EB64B1CBF6BC50055E63F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		505EB64D1CBF6BC50055E63F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		505EB64E1CBF6BC50055E63F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		505EB6511CBF6BC50055E63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		505EB6541CBF6BC50055E63F /* ZHPPhotoBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZHPPhotoBrowser.xcdatamodel; sourceTree = "<group>"; };
+		505EB6561CBF6BC50055E63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		505EB6591CBF6BC50055E63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		505EB65B1CBF6BC50055E63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505EB6601CBF6BC50055E63F /* ZHPPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHPPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505EB6641CBF6BC50055E63F /* ZHPPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHPPhotoBrowserTests.m; sourceTree = "<group>"; };
+		505EB6661CBF6BC50055E63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505EB66B1CBF6BC50055E63F /* ZHPPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHPPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505EB66F1CBF6BC50055E63F /* ZHPPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHPPhotoBrowserUITests.m; sourceTree = "<group>"; };
+		505EB6711CBF6BC50055E63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505EB67E1CBF6BF60055E63F /* PBImageScrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBImageScrollerViewController.h; sourceTree = "<group>"; };
+		505EB67F1CBF6BF60055E63F /* PBImageScrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBImageScrollerViewController.m; sourceTree = "<group>"; };
+		505EB6801CBF6BF60055E63F /* PBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBViewController.h; sourceTree = "<group>"; };
+		505EB6811CBF6BF60055E63F /* PBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBViewController.m; sourceTree = "<group>"; };
+		505EB6821CBF6BF60055E63F /* PBViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBViewControllerDataSource.h; sourceTree = "<group>"; };
+		505EB6831CBF6BF60055E63F /* PBViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBViewControllerDelegate.h; sourceTree = "<group>"; };
+		505EB6841CBF6BF60055E63F /* PhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowser.h; sourceTree = "<group>"; };
+		505EB6871CBF6D320055E63F /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		505EB6891CBF6D3A0055E63F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		505EB68A1CBF6D3A0055E63F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505EB6411CBF6BC50055E63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EB65D1CBF6BC50055E63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EB6681CBF6BC50055E63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		505EB63B1CBF6BC50055E63F = {
+			isa = PBXGroup;
+			children = (
+				505EB6461CBF6BC50055E63F /* ZHPPhotoBrowser */,
+				505EB6631CBF6BC50055E63F /* ZHPPhotoBrowserTests */,
+				505EB66E1CBF6BC50055E63F /* ZHPPhotoBrowserUITests */,
+				505EB6451CBF6BC50055E63F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505EB6451CBF6BC50055E63F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505EB6441CBF6BC50055E63F /* ZHPPhotoBrowser.app */,
+				505EB6601CBF6BC50055E63F /* ZHPPhotoBrowserTests.xctest */,
+				505EB66B1CBF6BC50055E63F /* ZHPPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505EB6461CBF6BC50055E63F /* ZHPPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				505EB67D1CBF6BD40055E63F /* PhotoBrowser */,
+				505EB64A1CBF6BC50055E63F /* AppDelegate.h */,
+				505EB64B1CBF6BC50055E63F /* AppDelegate.m */,
+				505EB64D1CBF6BC50055E63F /* ViewController.h */,
+				505EB64E1CBF6BC50055E63F /* ViewController.m */,
+				505EB6501CBF6BC50055E63F /* Main.storyboard */,
+				505EB6561CBF6BC50055E63F /* Assets.xcassets */,
+				505EB6581CBF6BC50055E63F /* LaunchScreen.storyboard */,
+				505EB65B1CBF6BC50055E63F /* Info.plist */,
+				505EB6531CBF6BC50055E63F /* ZHPPhotoBrowser.xcdatamodeld */,
+				505EB6471CBF6BC50055E63F /* Supporting Files */,
+			);
+			path = ZHPPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		505EB6471CBF6BC50055E63F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				505EB6481CBF6BC50055E63F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		505EB6631CBF6BC50055E63F /* ZHPPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				505EB6641CBF6BC50055E63F /* ZHPPhotoBrowserTests.m */,
+				505EB6661CBF6BC50055E63F /* Info.plist */,
+			);
+			path = ZHPPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		505EB66E1CBF6BC50055E63F /* ZHPPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				505EB66F1CBF6BC50055E63F /* ZHPPhotoBrowserUITests.m */,
+				505EB6711CBF6BC50055E63F /* Info.plist */,
+			);
+			path = ZHPPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+		505EB67D1CBF6BD40055E63F /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				505EB6891CBF6D3A0055E63F /* 1.jpg */,
+				505EB68A1CBF6D3A0055E63F /* 2.jpg */,
+				505EB6871CBF6D320055E63F /* 3.jpg */,
+				505EB67E1CBF6BF60055E63F /* PBImageScrollerViewController.h */,
+				505EB67F1CBF6BF60055E63F /* PBImageScrollerViewController.m */,
+				505EB6801CBF6BF60055E63F /* PBViewController.h */,
+				505EB6811CBF6BF60055E63F /* PBViewController.m */,
+				505EB6821CBF6BF60055E63F /* PBViewControllerDataSource.h */,
+				505EB6831CBF6BF60055E63F /* PBViewControllerDelegate.h */,
+				505EB6841CBF6BF60055E63F /* PhotoBrowser.h */,
+			);
+			name = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505EB6431CBF6BC50055E63F /* ZHPPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505EB6741CBF6BC50055E63F /* Build configuration list for PBXNativeTarget "ZHPPhotoBrowser" */;
+			buildPhases = (
+				505EB6401CBF6BC50055E63F /* Sources */,
+				505EB6411CBF6BC50055E63F /* Frameworks */,
+				505EB6421CBF6BC50055E63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHPPhotoBrowser;
+			productName = ZHPPhotoBrowser;
+			productReference = 505EB6441CBF6BC50055E63F /* ZHPPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		505EB65F1CBF6BC50055E63F /* ZHPPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505EB6771CBF6BC50055E63F /* Build configuration list for PBXNativeTarget "ZHPPhotoBrowserTests" */;
+			buildPhases = (
+				505EB65C1CBF6BC50055E63F /* Sources */,
+				505EB65D1CBF6BC50055E63F /* Frameworks */,
+				505EB65E1CBF6BC50055E63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505EB6621CBF6BC50055E63F /* PBXTargetDependency */,
+			);
+			name = ZHPPhotoBrowserTests;
+			productName = ZHPPhotoBrowserTests;
+			productReference = 505EB6601CBF6BC50055E63F /* ZHPPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		505EB66A1CBF6BC50055E63F /* ZHPPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505EB67A1CBF6BC50055E63F /* Build configuration list for PBXNativeTarget "ZHPPhotoBrowserUITests" */;
+			buildPhases = (
+				505EB6671CBF6BC50055E63F /* Sources */,
+				505EB6681CBF6BC50055E63F /* Frameworks */,
+				505EB6691CBF6BC50055E63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505EB66D1CBF6BC50055E63F /* PBXTargetDependency */,
+			);
+			name = ZHPPhotoBrowserUITests;
+			productName = ZHPPhotoBrowserUITests;
+			productReference = 505EB66B1CBF6BC50055E63F /* ZHPPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		505EB63C1CBF6BC50055E63F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WCiOS;
+				TargetAttributes = {
+					505EB6431CBF6BC50055E63F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					505EB65F1CBF6BC50055E63F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 505EB6431CBF6BC50055E63F;
+					};
+					505EB66A1CBF6BC50055E63F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 505EB6431CBF6BC50055E63F;
+					};
+				};
+			};
+			buildConfigurationList = 505EB63F1CBF6BC50055E63F /* Build configuration list for PBXProject "ZHPPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 505EB63B1CBF6BC50055E63F;
+			productRefGroup = 505EB6451CBF6BC50055E63F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505EB6431CBF6BC50055E63F /* ZHPPhotoBrowser */,
+				505EB65F1CBF6BC50055E63F /* ZHPPhotoBrowserTests */,
+				505EB66A1CBF6BC50055E63F /* ZHPPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505EB6421CBF6BC50055E63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505EB68C1CBF6D3A0055E63F /* 2.jpg in Resources */,
+				505EB65A1CBF6BC50055E63F /* LaunchScreen.storyboard in Resources */,
+				505EB6571CBF6BC50055E63F /* Assets.xcassets in Resources */,
+				505EB6521CBF6BC50055E63F /* Main.storyboard in Resources */,
+				505EB6881CBF6D320055E63F /* 3.jpg in Resources */,
+				505EB68B1CBF6D3A0055E63F /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EB65E1CBF6BC50055E63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EB6691CBF6BC50055E63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505EB6401CBF6BC50055E63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505EB6551CBF6BC50055E63F /* ZHPPhotoBrowser.xcdatamodeld in Sources */,
+				505EB64F1CBF6BC50055E63F /* ViewController.m in Sources */,
+				505EB64C1CBF6BC50055E63F /* AppDelegate.m in Sources */,
+				505EB6851CBF6BF60055E63F /* PBImageScrollerViewController.m in Sources */,
+				505EB6861CBF6BF60055E63F /* PBViewController.m in Sources */,
+				505EB6491CBF6BC50055E63F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EB65C1CBF6BC50055E63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505EB6651CBF6BC50055E63F /* ZHPPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505EB6671CBF6BC50055E63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505EB6701CBF6BC50055E63F /* ZHPPhotoBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		505EB6621CBF6BC50055E63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505EB6431CBF6BC50055E63F /* ZHPPhotoBrowser */;
+			targetProxy = 505EB6611CBF6BC50055E63F /* PBXContainerItemProxy */;
+		};
+		505EB66D1CBF6BC50055E63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505EB6431CBF6BC50055E63F /* ZHPPhotoBrowser */;
+			targetProxy = 505EB66C1CBF6BC50055E63F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		505EB6501CBF6BC50055E63F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505EB6511CBF6BC50055E63F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		505EB6581CBF6BC50055E63F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505EB6591CBF6BC50055E63F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		505EB6721CBF6BC50055E63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		505EB6731CBF6BC50055E63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505EB6751CBF6BC50055E63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHPPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhuHP.ZHPPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		505EB6761CBF6BC50055E63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHPPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhuHP.ZHPPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		505EB6781CBF6BC50055E63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHPPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhuHP.ZHPPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHPPhotoBrowser.app/ZHPPhotoBrowser";
+			};
+			name = Debug;
+		};
+		505EB6791CBF6BC50055E63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHPPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhuHP.ZHPPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHPPhotoBrowser.app/ZHPPhotoBrowser";
+			};
+			name = Release;
+		};
+		505EB67B1CBF6BC50055E63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHPPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhuHP.ZHPPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHPPhotoBrowser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		505EB67C1CBF6BC50055E63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHPPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhuHP.ZHPPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHPPhotoBrowser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		505EB63F1CBF6BC50055E63F /* Build configuration list for PBXProject "ZHPPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505EB6721CBF6BC50055E63F /* Debug */,
+				505EB6731CBF6BC50055E63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505EB6741CBF6BC50055E63F /* Build configuration list for PBXNativeTarget "ZHPPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505EB6751CBF6BC50055E63F /* Debug */,
+				505EB6761CBF6BC50055E63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		505EB6771CBF6BC50055E63F /* Build configuration list for PBXNativeTarget "ZHPPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505EB6781CBF6BC50055E63F /* Debug */,
+				505EB6791CBF6BC50055E63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		505EB67A1CBF6BC50055E63F /* Build configuration list for PBXNativeTarget "ZHPPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505EB67B1CBF6BC50055E63F /* Debug */,
+				505EB67C1CBF6BC50055E63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		505EB6531CBF6BC50055E63F /* ZHPPhotoBrowser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				505EB6541CBF6BC50055E63F /* ZHPPhotoBrowser.xcdatamodel */,
+			);
+			currentVersion = 505EB6541CBF6BC50055E63F /* ZHPPhotoBrowser.xcdatamodel */;
+			path = ZHPPhotoBrowser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 505EB63C1CBF6BC50055E63F /* Project object */;
+}
